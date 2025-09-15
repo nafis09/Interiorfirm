@@ -295,6 +295,9 @@
   .ml-50 {
     margin-left: calc(var(--spacing) * 50);
   }
+  .ml-55 {
+    margin-left: calc(var(--spacing) * 55);
+  }
   .ml-60 {
     margin-left: calc(var(--spacing) * 60);
   }
@@ -355,6 +358,9 @@
   .h-6 {
     height: calc(var(--spacing) * 6);
   }
+  .h-\[100px\] {
+    height: 100px;
+  }
   .h-\[804px\] {
     height: 804px;
   }
@@ -366,6 +372,9 @@
   }
   .w-\[680px\] {
     width: 680px;
+  }
+  .w-\[700px\] {
+    width: 700px;
   }
   .w-\[960px\] {
     width: 960px;
@@ -481,6 +490,10 @@
     --tw-translate-x: 500px;
     translate: var(--tw-translate-x) var(--tw-translate-y);
   }
+  .translate-x-\[530px\] {
+    --tw-translate-x: 530px;
+    translate: var(--tw-translate-x) var(--tw-translate-y);
+  }
   .translate-x-\[635px\] {
     --tw-translate-x: 635px;
     translate: var(--tw-translate-x) var(--tw-translate-y);
@@ -529,6 +542,10 @@
     --tw-translate-y: -50;
     translate: var(--tw-translate-x) var(--tw-translate-y);
   }
+  .translate-y-\[-50px\] {
+    --tw-translate-y: -50px;
+    translate: var(--tw-translate-x) var(--tw-translate-y);
+  }
   .translate-y-\[-60px\] {
     --tw-translate-y: -60px;
     translate: var(--tw-translate-x) var(--tw-translate-y);
@@ -565,6 +582,14 @@
     --tw-translate-y: -200px;
     translate: var(--tw-translate-x) var(--tw-translate-y);
   }
+  .translate-y-\[-250px\] {
+    --tw-translate-y: -250px;
+    translate: var(--tw-translate-x) var(--tw-translate-y);
+  }
+  .translate-y-\[-270px\] {
+    --tw-translate-y: -270px;
+    translate: var(--tw-translate-x) var(--tw-translate-y);
+  }
   .translate-y-\[-400px\] {
     --tw-translate-y: -400px;
     translate: var(--tw-translate-x) var(--tw-translate-y);
@@ -595,6 +620,14 @@
   }
   .translate-y-\[20\] {
     --tw-translate-y: 20;
+    translate: var(--tw-translate-x) var(--tw-translate-y);
+  }
+  .translate-y-\[50px\] {
+    --tw-translate-y: 50px;
+    translate: var(--tw-translate-x) var(--tw-translate-y);
+  }
+  .translate-y-\[70px\] {
+    --tw-translate-y: 70px;
     translate: var(--tw-translate-x) var(--tw-translate-y);
   }
   .translate-y-\[100\] {
@@ -692,6 +725,15 @@
   }
   .gap-25 {
     gap: calc(var(--spacing) * 25);
+  }
+  .gap-100 {
+    gap: calc(var(--spacing) * 100);
+  }
+  .gap-120 {
+    gap: calc(var(--spacing) * 120);
+  }
+  .gap-150 {
+    gap: calc(var(--spacing) * 150);
   }
   .space-y-4 {
     :where(& > :not(:last-child)) {
