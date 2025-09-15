@@ -20,6 +20,10 @@
     --text-2xl--line-height: calc(2 / 1.5);
     --text-3xl: 1.875rem;
     --text-3xl--line-height: calc(2.25 / 1.875);
+    --text-4xl: 2.25rem;
+    --text-4xl--line-height: calc(2.5 / 2.25);
+    --text-5xl: 3rem;
+    --text-5xl--line-height: 1;
     --text-8xl: 6rem;
     --text-8xl--line-height: 1;
     --font-weight-medium: 500;
@@ -229,8 +233,14 @@
   .mt-15 {
     margin-top: calc(var(--spacing) * 15);
   }
+  .mt-18 {
+    margin-top: calc(var(--spacing) * 18);
+  }
   .mt-20 {
     margin-top: calc(var(--spacing) * 20);
+  }
+  .mt-22 {
+    margin-top: calc(var(--spacing) * 22);
   }
   .mt-25 {
     margin-top: calc(var(--spacing) * 25);
@@ -277,6 +287,9 @@
   .mb-5 {
     margin-bottom: calc(var(--spacing) * 5);
   }
+  .mb-8 {
+    margin-bottom: calc(var(--spacing) * 8);
+  }
   .mb-10 {
     margin-bottom: calc(var(--spacing) * 10);
   }
@@ -291,6 +304,9 @@
   }
   .ml-5 {
     margin-left: calc(var(--spacing) * 5);
+  }
+  .ml-10 {
+    margin-left: calc(var(--spacing) * 10);
   }
   .ml-15 {
     margin-left: calc(var(--spacing) * 15);
@@ -361,6 +377,12 @@
   .ml-\[220px\] {
     margin-left: 220px;
   }
+  .ml-\[240px\] {
+    margin-left: 240px;
+  }
+  .ml-\[300px\] {
+    margin-left: 300px;
+  }
   .block {
     display: block;
   }
@@ -388,6 +410,18 @@
   .h-\[100px\] {
     height: 100px;
   }
+  .h-\[102px\] {
+    height: 102px;
+  }
+  .h-\[140px\] {
+    height: 140px;
+  }
+  .h-\[156px\] {
+    height: 156px;
+  }
+  .h-\[290px\] {
+    height: 290px;
+  }
   .h-\[804px\] {
     height: 804px;
   }
@@ -400,14 +434,53 @@
   .w-\[680px\] {
     width: 680px;
   }
+  .w-\[697px\] {
+    width: 697px;
+  }
   .w-\[700px\] {
     width: 700px;
+  }
+  .w-\[800px\] {
+    width: 800px;
+  }
+  .w-\[815px\] {
+    width: 815px;
+  }
+  .w-\[820px\] {
+    width: 820px;
+  }
+  .w-\[850px\] {
+    width: 850px;
+  }
+  .w-\[860px\] {
+    width: 860px;
+  }
+  .w-\[870px\] {
+    width: 870px;
+  }
+  .w-\[880px\] {
+    width: 880px;
+  }
+  .w-\[900px\] {
+    width: 900px;
   }
   .w-\[960px\] {
     width: 960px;
   }
   .w-\[1180px\] {
     width: 1180px;
+  }
+  .w-\[1250px\] {
+    width: 1250px;
+  }
+  .w-\[1260px\] {
+    width: 1260px;
+  }
+  .w-\[1270px\] {
+    width: 1270px;
+  }
+  .w-\[1310px\] {
+    width: 1310px;
   }
   .w-full {
     width: 100%;
@@ -755,6 +828,9 @@
   .items-end {
     align-items: flex-end;
   }
+  .justify-around {
+    justify-content: space-around;
+  }
   .justify-between {
     justify-content: space-between;
   }
@@ -787,6 +863,15 @@
   }
   .gap-25 {
     gap: calc(var(--spacing) * 25);
+  }
+  .gap-40 {
+    gap: calc(var(--spacing) * 40);
+  }
+  .gap-50 {
+    gap: calc(var(--spacing) * 50);
+  }
+  .gap-80 {
+    gap: calc(var(--spacing) * 80);
   }
   .gap-100 {
     gap: calc(var(--spacing) * 100);
@@ -835,6 +920,9 @@
   }
   .bg-\[url\(\/images\/rct2\.png\)\] {
     background-image: url(/images/rct2.png);
+  }
+  .bg-\[url\(\/images\/rectangle2\.png\)\] {
+    background-image: url(/images/rectangle2.png);
   }
   .bg-\[url\(images\/back\.png\)\] {
     background-image: url(images/back.png);
@@ -896,11 +984,17 @@
   .pt-5 {
     padding-top: calc(var(--spacing) * 5);
   }
+  .pt-8 {
+    padding-top: calc(var(--spacing) * 8);
+  }
   .pt-10 {
     padding-top: calc(var(--spacing) * 10);
   }
   .pt-15 {
     padding-top: calc(var(--spacing) * 15);
+  }
+  .pt-18 {
+    padding-top: calc(var(--spacing) * 18);
   }
   .pt-20 {
     padding-top: calc(var(--spacing) * 20);
@@ -910,6 +1004,21 @@
   }
   .pr-20 {
     padding-right: calc(var(--spacing) * 20);
+  }
+  .pl-20 {
+    padding-left: calc(var(--spacing) * 20);
+  }
+  .pl-40 {
+    padding-left: calc(var(--spacing) * 40);
+  }
+  .pl-50 {
+    padding-left: calc(var(--spacing) * 50);
+  }
+  .pl-55 {
+    padding-left: calc(var(--spacing) * 55);
+  }
+  .pl-60 {
+    padding-left: calc(var(--spacing) * 60);
   }
   .text-center {
     text-align: center;
@@ -936,6 +1045,14 @@
   .text-3xl {
     font-size: var(--text-3xl);
     line-height: var(--tw-leading, var(--text-3xl--line-height));
+  }
+  .text-4xl {
+    font-size: var(--text-4xl);
+    line-height: var(--tw-leading, var(--text-4xl--line-height));
+  }
+  .text-5xl {
+    font-size: var(--text-5xl);
+    line-height: var(--tw-leading, var(--text-5xl--line-height));
   }
   .text-8xl {
     font-size: var(--text-8xl);
