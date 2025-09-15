@@ -296,6 +296,18 @@
   .mb-20 {
     margin-bottom: calc(var(--spacing) * 20);
   }
+  .mb-25 {
+    margin-bottom: calc(var(--spacing) * 25);
+  }
+  .mb-30 {
+    margin-bottom: calc(var(--spacing) * 30);
+  }
+  .mb-40 {
+    margin-bottom: calc(var(--spacing) * 40);
+  }
+  .mb-50 {
+    margin-bottom: calc(var(--spacing) * 50);
+  }
   .mb-\[100px\] {
     margin-bottom: 100px;
   }
@@ -406,6 +418,9 @@
   }
   .h-\[63px\] {
     height: 63px;
+  }
+  .h-\[68px\] {
+    height: 68px;
   }
   .h-\[100px\] {
     height: 100px;
@@ -920,6 +935,9 @@
   }
   .bg-\[url\(\/images\/rct2\.png\)\] {
     background-image: url(/images/rct2.png);
+  }
+  .bg-\[url\(\/images\/rec2\.png\)\] {
+    background-image: url(/images/rec2.png);
   }
   .bg-\[url\(\/images\/rectangle2\.png\)\] {
     background-image: url(/images/rectangle2.png);
