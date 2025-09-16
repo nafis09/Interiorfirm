@@ -960,6 +960,78 @@
       }
     }
   }
+  .hover\:-rotate-35 {
+    &:hover {
+      @media (hover: hover) {
+        rotate: calc(35deg * -1);
+      }
+    }
+  }
+  .hover\:-rotate-45 {
+    &:hover {
+      @media (hover: hover) {
+        rotate: calc(45deg * -1);
+      }
+    }
+  }
+  .hover\:rotate-45 {
+    &:hover {
+      @media (hover: hover) {
+        rotate: 45deg;
+      }
+    }
+  }
+  .hover\:rotate-90 {
+    &:hover {
+      @media (hover: hover) {
+        rotate: 90deg;
+      }
+    }
+  }
+  .hover\:rotate-210 {
+    &:hover {
+      @media (hover: hover) {
+        rotate: 210deg;
+      }
+    }
+  }
+  .hover\:rotate-\[-45\] {
+    &:hover {
+      @media (hover: hover) {
+        rotate: -45;
+      }
+    }
+  }
+  .hover\:rotate-\[-45px\] {
+    &:hover {
+      @media (hover: hover) {
+        rotate: -45px;
+      }
+    }
+  }
+  .hover\:rotate-\[45\] {
+    &:hover {
+      @media (hover: hover) {
+        rotate: 45;
+      }
+    }
+  }
+  .hover\:rotate-x-45 {
+    &:hover {
+      @media (hover: hover) {
+        --tw-rotate-x: rotateX(45deg);
+        transform: var(--tw-rotate-x,) var(--tw-rotate-y,) var(--tw-rotate-z,) var(--tw-skew-x,) var(--tw-skew-y,);
+      }
+    }
+  }
+  .hover\:rotate-y-45 {
+    &:hover {
+      @media (hover: hover) {
+        --tw-rotate-y: rotateY(45deg);
+        transform: var(--tw-rotate-x,) var(--tw-rotate-y,) var(--tw-rotate-z,) var(--tw-skew-x,) var(--tw-skew-y,);
+      }
+    }
+  }
   .hover\:bg-\[\#FFD476\] {
     &:hover {
       @media (hover: hover) {
